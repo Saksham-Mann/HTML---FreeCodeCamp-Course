@@ -11,6 +11,7 @@ This repository tracks my progress in learning the fundamentals of web developme
 * Book Store Website
 * Travel Agency Website
 * Audio-Video Website
+* SVG Emoji Website
 
 ## Goals
 The main goal of this repository is to document my learning journey, practice using Git and GitHub, and showcase my early web development projects.
