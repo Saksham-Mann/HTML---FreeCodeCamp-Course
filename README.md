@@ -13,6 +13,7 @@ This repository tracks my progress in learning the fundamentals of web developme
 * Audio-Video Website
 * SVG Emoji Website
 * Youtube Video Player Website
+* Quotation-Citation Website
 
 ## Goals
 The main goal of this repository is to document my learning journey, practice using Git and GitHub, and showcase my early web development projects.
