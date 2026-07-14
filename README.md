@@ -17,6 +17,7 @@ This repository tracks my progress in learning the fundamentals of web developme
 * Cat Blog Website
 * Event Hub Website
 * Grade Table Website
+* Hotel Feedback Website
 
 ## Goals
 The main goal of this repository is to document my learning journey, practice using Git and GitHub, and showcase my early web development projects.
