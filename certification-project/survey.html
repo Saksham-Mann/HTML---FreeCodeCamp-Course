@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">The 2026 Developer & Creator Insight Poll</h1>
+      <p id="description">Thank you for participating. The goal of this survey is to gather cross-disciplinary insights into how individuals interact with technology, manage their workspaces, and tackle complex creative and analytical challenges.<br>
+      Your input is highly valued and will remain anonymous. The questionnaire consists of few questions and should take approximately 2 minutes to complete.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <table>
+          <tr>
+            <td><label for="name" id="name-label">Name :</label></td>
+            <td><input required id="name" type="text" name="name" placeholder="e.g. Ron" ></td>
+          </tr>
+          <tr>
+            <td><label for="email" id="email-label">Email :</label></td>
+            <td><input required id="email" type="email" name="email" placeholder="e.g. example@email.com" ></td>
+          </tr>
+          <tr>
+            <td><label  for="number" id="number-label">Age :</label></td>
+            <td><input id="number" type="number" name="age" placeholder="e.g. 18" min="15" max="100" ></td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr><td><label for="dropdown">When trying to learn a complex new skill, what is your absolute first point of entry?</label><td></tr>
+          <tr>
+            <td>
+              <select id="dropdown" name="dropdown">
+                <option selected disabled>Please select an option</option>
+                <option>Video tutorials (YouTube, online courses)</option>
+                <option>Text documentation, articles, or books</option>
+                <option>Interactive tools / hands-on experimentation</option>
+                <option>Asking AI assistants (Gemini, ChatGPT) for a breakdown</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>
+              <p>How would you describe your preference for your digital environments?</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="dark" type="radio" name="tick" value="dark-mode">
+              <label for="dark">I exclusively use "Dark Mode" whenever available.</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="light" type="radio" name="tick" value="light-mode">
+              <label for="light">I prefer "Light Mode" for readability.</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="auto" type="radio" name="tick" value="auto-mode">
+              <label for="auto">I let it automatically switch based on the time of day.</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="default" type="radio" name="tick" value="default-mode">
+              <label for="default">I leave everything on default settings.</label>
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>
+              <p>When deciding to adopt a new tool, language, or framework for your workflow, which single factor influences your decision the most?</p>
+              </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="checkboxes" type="checkbox" name="checkboxes" value="quality">
+              <label for="checkboxes">Quality and clarity of the official documentation.</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="checkboxes" type="checkbox" name="checkboxes" value="community">
+              <label for="checkboxes">Size and activity of the community (forums, Reddit, Discord).</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="checkboxes" type="checkbox" name="checkboxes" value="benchmarks">
+              <label for="checkboxes">Raw performance, speed, and technical benchmarks.</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="checkboxes" type="checkbox" name="checkboxes" value="integration">
+              <label for="checkboxes">Seamless integration with my existing tech stack.</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="checkboxes" type="checkbox" name="checkboxes" value="AI">
+              <label for="checkboxes">Compatibility with AI assistants (how well AI can write/troubleshoot it).</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="checkboxes" type="checkbox" name="checkboxes" value="learning">
+              <label for="checkboxes">The learning curve and how fast I can build a working prototype.</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="checkboxes" type="checkbox" name="checkboxes" value="industry">
+              <label for="checkboxes">Industry demand and potential for career growth.</label>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <label for="comment">Other Comments?</label>
+        <textarea id="comment" name="comment" cols="20" rows="2"></textarea> <br><br> 
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
